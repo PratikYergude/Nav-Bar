@@ -1,23 +1,33 @@
 .Padole-Square {
     width: 100px;
-    height: 300px;
+    height: 400px;
     background-color: #020202;
     border-radius: 10px;
     flex-direction:column;
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    text-align: center;
+  }
+  body{
+    background-color: rgb(118, 108, 108);
+    text-align: center;
   }
   
   .light {
     width: 100px;
     height: 100px;
     border-radius: 80px;border-color: rgb(246, 245, 244);
+    text-align: center;
   }
   
   .red {
     background-color: rgb(10, 10, 10);
-  }
+   
+}
+.Orange{
+  background-color: #f08804;
+}
   
   .yellow {
     background-color: rgb(11, 11, 11);
@@ -26,3 +36,4 @@
   .green {
     background-color: rgb(9, 9, 9);
   }
+  

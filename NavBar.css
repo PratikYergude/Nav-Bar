@@ -8,11 +8,8 @@ nav {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
-    width:100%;
-}
-.nav-links{
-   
+    padding: 10px 10px;
+    width: 100%;
 }
 
 .nav-links {
@@ -40,24 +37,31 @@ nav {
     color: black;
 }
 
-.search-form input[type="text"] {
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
     padding: 6px;
     margin-top: 8px;
     font-size: 17px;
     border: none;
 }
 
-.search-form button {
-    padding: 6px;
+.search-btn {
+    padding: 8px;
     margin-top: 8px;
-    margin-left: -5px;
     background: #f08804;
-    font-size: 17px;
     border: none;
     cursor: pointer;
 }
 
-.search-form button:hover {
+.search-btn i {
+    color: #333;
+}
+
+.search-btn:hover {
     background: #ccc;
 }
 
@@ -66,14 +70,17 @@ nav {
         flex-direction: column;
     }
 
-    .nav-links li a, .search-form input[type="text"], .search-form button {
+    .nav-links li a, .search-input, .search-btn {
         width: 100%;
         margin-top: 0;
     }
 
-    .search-form {
-        display: flex;
-        flex-direction: column;
+    .search-box {
         width: 100%;
     }
+.NAV-HOME{
+    height: 1000px;
+    width:;
+    padding:;
+}
 }

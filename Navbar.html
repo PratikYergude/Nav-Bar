@@ -3,23 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar with Search Box</title>
+    <title>Navbar with Search Box and Icons</title>
     <link rel="stylesheet" href="NavBar.css">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <nav>
         <ul class="nav-links">
-            <img src="NAV1.png" alt="" height="50" width="">
+           <img src="NAV1.png" alt="" height="" width="50">
             <li><a href="#">Home Page</a></li>
             <li><a href="About Us.html">About Us</a></li>
             <li><a href="#">Student Zone</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
             <li><a href="Login.html">Login</a></li>
         </ul>
-        <form action="/search" class="search-form">
-            <input type="text" placeholder="Search..." name="search">
-            <button type="submit">Search</button>
-        </form>
-    </nav>
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </nav><br>
+    <div style="text-align: center;">
+        <img src="Home1.jpeg" alt="">
+    </div>
+    <div class="NAV-HOME" style="text-align: center;">
+        <img src="home2.png" alt="">
+        <img src="home3.png" alt="">
+        <img src="home4.png" alt="">
+    </div>
 </body>
 </html>
